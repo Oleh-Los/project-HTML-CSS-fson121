@@ -2,127 +2,689 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/project-HTML-CSS-fson121/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/project-HTML-CSS-fson121/assets/favicon-B_hDKbSK.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/project-HTML-CSS-fson121/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-HTML-CSS-fson121/assets/styles-DvPDDfy5.css">
+    <title>project goit-markup-hw-06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" crossorigin href="/project-HTML-CSS-fson121/assets/index-BkR47DKm.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/project-HTML-CSS-fson121/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <nav class="header-nav">
+      <a class="logo" href="./index.html"
+        >Web<span class="header-logo-span">Studio</span></a
+      >
+      <ul class="header-nav-list">
+        <li class="header-nav-list-items">
+          <a
+            class="header-nav-list-items-link current"
+            href="./index.html"
+            target="_blank"
+            >Studio</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="header-nav-list-items">
+          <a class="header-nav-list-items-link" href="">Portfolio</a>
+        </li>
+        <li class="header-nav-list-items">
+          <a class="header-nav-list-items-link" href="" target="_blank"
+            >Contacts</a
+          >
         </li>
       </ul>
     </nav>
+
+    <address class="header-address">
+      <ul class="header-address-list">
+        <li class="header-address-list-items">
+          <a
+            class="header-address-list-items-link"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="header-address-list-items">
+          <a class="header-address-list-items-link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+    <button class="burger-button" type="button" data-menu-open>
+      <svg class=" " width="24" height="24">
+        <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+      <button class="mobile-menu-close" type="button" data-menu-close>
+        <svg class="mobile-btn-icons" width="8" height="8">
+          <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-x"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-list-items">
+            <a
+              class="mobile-nav-list-items-link current"
+              href="./index.html"
+              target="_blank"
+              >Studio</a
+            >
+          </li>
+          <li class="mobile-nav-list-items">
+            <a class="mobile-nav-list-items-link" href="">Portfolio</a>
+          </li>
+          <li class="mobile-nav-list-items">
+            <a class="mobile-nav-list-items-link" href="" target="_blank"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-address">
+        <ul class="mobile-address-list">
+          <li class="mobile-address-list-items">
+            <a class="mobile-address-list-items-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-address-list-items">
+            <a
+              class="mobile-address-list-items-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <div class="mobile-icon">
+        <ul class="mobile-icon-list">
+          <li class="mobile-icon-round">
+            <a class="mobile-icon-round-link" href="" target="_blank">
+              <svg class="mobile-social-icon" width="24" height="24">
+                <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-icon-round">
+            <a class="mobile-icon-round-link" href="" target="_blank">
+              <svg class="mobile-social-icon" width="24" height="24">
+                <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-icon-round">
+            <a class="mobile-icon-round-link" href="" target="_blank">
+              <svg class="mobile-social-icon" width="24" height="24">
+                <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-icon-round">
+            <a class="mobile-icon-round-link" href="" target="_blank">
+              <svg class="mobile-social-icon" width="24" height="24">
+                <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <section class="hero-banner section" id="hero-banner">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/project-HTML-CSS-fson121/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+    <h1 class="hero-banner-title">Effective Solutions for Your Business</h1>
+    <button class="hero-banner-button" type="button" data-modal-open>
+      Order Service
+    </button>
   </div>
 </section>
 
-      <article class="badges">
+      <section class="features section" id="features">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <h2 class="visually-hidden">features</h2>
+    <ul class="features-list">
+      <li class="features-list-items">
+        <div class="features-icon-box">
+          <svg class="features-icon" width="64" height="64">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-antenna"></use>
+          </svg>
+        </div>
+        <h3 class="features-list-items-title">Strategy</h3>
+        <p class="features-list-items-text">
+          Our goal is to identify the business problem to walk away with the
+          perfect and creative solution.
+        </p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="features-list-items">
+        <div class="features-icon-box">
+          <svg class="features-icon" width="64" height="64">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-clock"></use>
+          </svg>
+        </div>
+        <h3 class="features-list-items-title">Punctuality</h3>
+        <p class="features-list-items-text">
+          Bring the key message to the brand's audience for the best price
+          within the shortest possible time.
+        </p>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="features-list-items">
+        <div class="features-icon-box">
+          <svg class="features-icon" width="64" height="64">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-diagram"></use>
+          </svg>
+        </div>
+        <h3 class="features-list-items-title">Diligence</h3>
+        <p class="features-list-items-text">
+          Research and confirm brands with the strongest digital growth
+          opportunities and minimize risk.
+        </p>
+      </li>
+      <li class="features-list-items">
+        <div class="features-icon-box">
+          <svg class="features-icon" width="64" height="64">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-astronaut"></use>
+          </svg>
+        </div>
+        <h3 class="features-list-items-title">Technologies</h3>
+        <p class="features-list-items-text">
+          Design practice focused on digital experiences. We bring forth a deep
+          passion for problem-solving.
+        </p>
       </li>
     </ul>
   </div>
-</article>
+</section>
+
+      <section class="team section" id="team">
+  <div class="container">
+    <h2 class="team-title">Our Team</h2>
+    <ul class="team-list">
+      <li class="team-list-items">
+        <img
+          srcset="/project-HTML-CSS-fson121/assets/mark_guerrero_1x-BdfdVr-V.jpg 1x, /project-HTML-CSS-fson121/assets/mark_guerrero-DlR_0v-b.jpg 2x"
+          class="team-list-items-img"
+          src="/project-HTML-CSS-fson121/assets/mark_guerrero-DlR_0v-b.jpg"
+          alt="Portrait of Mark Guerrero"
+          width="264"
+          height="260"
+        />
+        <div class="team-list-items-pair-text">
+          <h3 class="team-list-items-title">Mark Guerrero</h3>
+          <p class="team-list-items-text">Product Designer</p>
+          <ul class="icon-list">
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-list-items">
+        <img
+          srcset="/project-HTML-CSS-fson121/assets/tom_ford_1x-CllVI6Qe.jpg 1x, /project-HTML-CSS-fson121/assets/tom_ford-DxnJurMH.jpg 2x"
+          class="team-list-items-img"
+          src="/project-HTML-CSS-fson121/assets/tom_ford-DxnJurMH.jpg"
+          alt="Portrait of Tom Ford"
+          width="264"
+          height="260"
+        />
+        <div class="team-list-items-pair-text">
+          <h3 class="team-list-items-title">Tom Ford</h3>
+          <p class="team-list-items-text">Frontend Developer</p>
+          <ul class="icon-list">
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-list-items">
+        <img
+          srcset="/project-HTML-CSS-fson121/assets/camila_garcia_1x-BHALrYGF.jpg 1x, /project-HTML-CSS-fson121/assets/camila_garcia-BhrpRsyx.jpg 2x"
+          class="team-list-items-img"
+          src="/project-HTML-CSS-fson121/assets/camila_garcia-BhrpRsyx.jpg"
+          alt="Portrait of Camila Garcia"
+          width="264"
+          height="260"
+        />
+        <div class="team-list-items-pair-text">
+          <h3 class="team-list-items-title">Camila Garcia</h3>
+          <p class="team-list-items-text">Marketing</p>
+          <ul class="icon-list">
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="team-list-items">
+        <img
+          srcset="/project-HTML-CSS-fson121/assets/daniel_wilson_1x-B6-7ABnj.jpg 1x, /project-HTML-CSS-fson121/assets/daniel_wilson-CL0y3ECz.jpg 2x"
+          class="team-list-items-img"
+          src="/project-HTML-CSS-fson121/assets/daniel_wilson-CL0y3ECz.jpg"
+          alt="Portrait of Daniel Wilson"
+          width="264"
+          height="260"
+        />
+        <div class="team-list-items-pair-text">
+          <h3 class="team-list-items-title">Daniel Wilson</h3>
+          <p class="team-list-items-text">UI Designer</p>
+          <ul class="icon-list">
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-round">
+              <a class="icon-round-link" href="" target="_blank">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="portfolio section" id="portfolio">
+  <div class="container">
+    <h2 class="portfolio-title">Our Portfolio</h2>
+    <ul class="portfolio-list">
+      <li class="portfolio-list-items">
+        <div class="portfolio-overlay">
+          <img
+            srcset="/project-HTML-CSS-fson121/assets/bankapp_1x-CvuL4F08.jpg 1x, /project-HTML-CSS-fson121/assets/bankapp-DXj1brds.jpg 2x"
+            class="portfolio-list-items-img"
+            src="/project-HTML-CSS-fson121/assets/bankapp-DXj1brds.jpg"
+            alt="bank app"
+            width="360"
+            height="300"
+          />
+          <p class="overlay-text">
+            14 Stylish and User-Friendly App Design Concepts · Task Manager App
+            · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage
+            App
+          </p>
+        </div>
+        <div class="portfolio-list-items-cont-text">
+          <h3 class="portfolio-list-items-title">Banking App</h3>
+          <p class="portfolio-list-items-text">App</p>
+        </div>
+      </li>
+      <li class="portfolio-list-items">
+        <div class="portfolio-overlay">
+          <img
+            srcset="/project-HTML-CSS-fson121/assets/qrcode_1x-CsDYDFfF.jpg 1x, /project-HTML-CSS-fson121/assets/qrcode-0aJbWjqS.jpg 2x"
+            class="portfolio-list-items-img"
+            src="/project-HTML-CSS-fson121/assets/qrcode-0aJbWjqS.jpg"
+            alt="qr code scaning "
+            width="360"
+            height="300"
+          />
+          <p class="overlay-text">
+            14 Stylish and User-Friendly App Design Concepts · Task Manager App
+            · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage
+            App
+          </p>
+        </div>
+        <div class="portfolio-list-items-cont-text">
+          <h3 class="portfolio-list-items-title">Cashless Payment</h3>
+          <p class="portfolio-list-items-text">Marketing</p>
+        </div>
+      </li>
+      <li class="portfolio-list-items">
+        <div class="portfolio-overlay">
+          <img
+            srcset="/project-HTML-CSS-fson121/assets/laptop_1x-BIbGrs0s.jpg 1x, /project-HTML-CSS-fson121/assets/laptop-nYcCLJ9K.jpg 2x"
+            class="portfolio-list-items-img"
+            src="/project-HTML-CSS-fson121/assets/laptop-nYcCLJ9K.jpg"
+            alt="laptop "
+            width="360"
+            height="300"
+          />
+          <p class="overlay-text">
+            14 Stylish and User-Friendly App Design Concepts · Task Manager App
+            · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage
+            App
+          </p>
+        </div>
+        <div class="portfolio-list-items-cont-text">
+          <h3 class="portfolio-list-items-title">Meditation App</h3>
+          <p class="portfolio-list-items-text">App</p>
+        </div>
+      </li>
+      <li class="portfolio-list-items">
+        <div class="portfolio-overlay">
+          <img
+            srcset="/project-HTML-CSS-fson121/assets/driver_1x-BcNGJNob.jpg 1x, /project-HTML-CSS-fson121/assets/driver-BBZZnux3.jpg 2x"
+            class="portfolio-list-items-img"
+            src="/project-HTML-CSS-fson121/assets/driver-BBZZnux3.jpg"
+            alt="driver in car"
+            width="360"
+            height="300"
+          />
+          <p class="overlay-text">
+            14 Stylish and User-Friendly App Design Concepts · Task Manager App
+            · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage
+            App
+          </p>
+        </div>
+        <div class="portfolio-list-items-cont-text">
+          <h3 class="portfolio-list-items-title">Taxi Service</h3>
+          <p class="portfolio-list-items-text">Marketing</p>
+        </div>
+      </li>
+      <li class="portfolio-list-items">
+        <div class="portfolio-overlay">
+          <img
+            srcset="/project-HTML-CSS-fson121/assets/phone_1x-DoFUwB9c.jpg 1x, /project-HTML-CSS-fson121/assets/phone-CZqumsRO.jpg 2x"
+            class="portfolio-list-items-img"
+            src="/project-HTML-CSS-fson121/assets/phone-CZqumsRO.jpg"
+            alt="phone adn wallpaper"
+            width="360"
+            height="300"
+          />
+          <p class="overlay-text">
+            14 Stylish and User-Friendly App Design Concepts · Task Manager App
+            · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage
+            App
+          </p>
+        </div>
+        <div class="portfolio-list-items-cont-text">
+          <h3 class="portfolio-list-items-title">Screen Illustrations</h3>
+          <p class="portfolio-list-items-text">Design</p>
+        </div>
+      </li>
+      <li class="portfolio-list-items">
+        <div class="portfolio-overlay">
+          <img
+            srcset="/project-HTML-CSS-fson121/assets/girl_1x-Dljm1Ljc.jpg 1x, /project-HTML-CSS-fson121/assets/girl-DVzRP1uz.jpg 2x"
+            class="portfolio-list-items-img"
+            src="/project-HTML-CSS-fson121/assets/girl-DVzRP1uz.jpg"
+            alt="girl"
+            width="360"
+            height="300"
+          />
+          <p class="overlay-text">
+            14 Stylish and User-Friendly App Design Concepts · Task Manager App
+            · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage
+            App
+          </p>
+        </div>
+        <div class="portfolio-list-items-cont-text">
+          <h3 class="portfolio-list-items-title">Online Courses</h3>
+          <p class="portfolio-list-items-text">Marketing</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
     </main>
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
+    <div class="footer-discr">
+      <a class="logo" href="./index.html"
+        >Web<span class="footer-logo-span">Studio</span></a
       >
-        GoIT team
-      </a>
-    </p>
+      <p class="footer-text">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+    </div>
+
+    <div class="footer-icons">
+      <p class="footer-icons-text">Social media</p>
+      <ul class="icon-list">
+        <li class="icon-round">
+          <a class="icon-round-link" href="" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-round">
+          <a class="icon-round-link" href="" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-round">
+          <a class="icon-round-link" href="" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="icon-round">
+          <a class="icon-round-link" href="" target="_blank">
+            <svg class="social-icon" width="24" height="24">
+              <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-subscribe">
+      <p class="footer-subscribe-text">Subscribe</p>
+      <form class="footer-subscribe-form">
+        <label class="footer-subscribe-label" for="subscribe-email">
+          <input
+            class="footer-input"
+            type="email"
+            id="subscribe-email"
+            name="subscribe-email"
+            placeholder="E-mail"
+        /></label>
+        <button class="footer-subscribe-button" type="submit">
+          Subscribe
+          <svg class="subscribe-icon" width="24" height="24">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-paper-plane"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
   </div>
 </footer>
 
+    <div class="backdrop" data-modal>
+  <div class="modal">
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg class="modal-icons" width="8" height="8">
+        <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-x"></use>
+      </svg>
+    </button>
+    <p class="modal-text">Leave your contacts and we will call you back</p>
+    <form class="input-forms">
+      <div class="input-set">
+        <label class="modal-label" for="user-name">Name</label>
+        <div class="icons-and-input">
+          <input
+            class="recall-input icon"
+            type="text"
+            name="user-name"
+            id="user-name"
+          />
+          <svg class="recall-icons" width="18" height="24">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-person"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="input-set">
+        <label class="modal-label" for="recall-tel">Phone</label>
+        <div class="icons-and-input">
+          <input
+            class="recall-input icon"
+            type="tel"
+            name="recall-tel"
+            id="recall-tel"
+          />
+          <svg class="recall-icons" width="18" height="24">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-phone"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="input-set">
+        <label class="modal-label" for="recall-email">Email</label>
+        <div class="icons-and-input">
+          <input
+            class="recall-input icon"
+            type="email"
+            name="recall-email"
+            id="recall-email"
+          />
+          <svg class="recall-icons" width="18" height="24">
+            <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-email"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="input-set-textarea">
+        <label class="modal-label" for="user-comment">Comment</label>
+        <textarea
+          class="recall-input text"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Text input"
+        ></textarea>
+      </div>
+      <div class="privacy-policy">
+        <input
+          type="checkbox"
+          class="privacy-check-hidden visually-hidden"
+          value="true"
+          id="user-privacy"
+          name="user-privacy"
+        />
+        <label class="privacy-check-label" for="user-privacy">
+          <span class="privacy-check">
+            <svg class="vector" width="10" height="8">
+              <use href="/project-HTML-CSS-fson121/assets/icons-Du0KxjZw.svg#icon-Vector"></use>
+            </svg>
+          </span>
+          <span class="privacy-text-and-link"
+            >I accept the terms and conditions of the
+            <a class="privacy-link" href="">Privacy Policy</a></span
+          >
+        </label>
+      </div>
+      <button class="hero-banner-button" type="submit">Send</button>
+    </form>
+  </div>
+</div>
 
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
