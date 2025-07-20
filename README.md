@@ -1,3 +1,5 @@
+project goit-markup-hw-06
+
 # Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування

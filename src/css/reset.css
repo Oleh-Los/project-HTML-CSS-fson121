@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -8,22 +12,16 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
+ul,
+ol {
+  list-style-type: none;
   padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
+  margin: 0;
 }
 
 button {
+  padding: 0;
+  border: none;
   cursor: pointer;
 }
 
@@ -31,4 +29,28 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input,
+label,
+textarea {
+  padding: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
