@@ -1,11 +1,11 @@
 {
-  "name": "project-HTML-CSS-fson121",
+  "name": "project-html-css-fson121",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-HTML-CSS-fson121/",
+    "build": "vite build --base=/project-html-css-fson121/",
     "preview": "vite preview"
   },
   "devDependencies": {
